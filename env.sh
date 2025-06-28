@@ -3,7 +3,7 @@
 # Check if the virtual environment directory exists
 if [ ! -d "venv" ]; then
     # Create the virtual environment if it doesn't exist
-    python3.11 -m venv venv
+    python3 -m venv venv
     echo "Virtual environment created."
 fi
 
